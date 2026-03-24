@@ -16,6 +16,7 @@ import Loader from './components/Loader';
 import Particles from './components/Particles';
 import PageTransition from './components/PageTransition';
 import Chatbot from './components/Chatbot';
+import Journey from './components/Journey';
 
 function App() {
   const location = useLocation();
@@ -91,6 +92,7 @@ function App() {
                   </div>
                 </PageTransition>
               } />
+              <Route path="/journey" element={<PageTransition><Journey /></PageTransition>} />
               <Route path="/skills" element={<PageTransition><Skills /></PageTransition>} />
               <Route path="/training" element={<PageTransition><Training /></PageTransition>} />
               <Route path="/education" element={<PageTransition><Education /></PageTransition>} />

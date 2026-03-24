@@ -68,7 +68,7 @@ const Hero = () => {
 
         {/* Right Content Section */}
         <div className="md:w-[58%] text-center md:text-left z-10 flex flex-col justify-center items-center md:items-start pl-0 lg:pl-4">
-          
+
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#20A274]/30 bg-white/50 dark:bg-[#15796b]/10 backdrop-blur-sm shadow-[0_4px_15px_rgba(32,162,116,0.08)]">
             <span className="relative flex h-2.5 w-2.5">
@@ -79,7 +79,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-[42px] md:text-[54px] lg:text-[60px] font-[900] text-[#2A3B4C] dark:text-gray-100 leading-[1.15] mb-4 tracking-[-0.02em]">
-            Hi, I'm <br className="hidden lg:block"/>
+            Hi, I'm <br className="hidden lg:block" />
             <span className="bg-gradient-to-r from-[#1C8F65] via-[#20A274] to-[#3197be] dark:from-[#20A274] dark:to-[#4bb2df] text-transparent bg-clip-text drop-shadow-sm">Himanshu Shekhar</span>
           </h1>
 
@@ -114,11 +114,11 @@ const Hero = () => {
           {/* Buttons */}
           <div className="mt-9 flex flex-wrap items-center justify-center md:justify-start gap-4 lg:gap-5 w-full">
             <Link to="/projects" className="bg-gradient-to-r from-[#1C8F65] to-[#20A274] text-white px-8 py-3.5 rounded-[30px] font-bold flex items-center justify-center gap-2 hover:scale-[1.03] transition-all duration-300 shadow-[0_8px_20px_-6px_rgba(21,121,107,0.5)] dark:shadow-[0_0_20px_rgba(32,162,116,0.3)] text-[15px] border border-[#20A274]/50 group">
-              View Projects 
+              View Projects
               <span className="group-hover:translate-x-1 transition-transform inline-block"><ChevronRight size={18} strokeWidth={2.5} /></span>
             </Link>
             <Link to="/contact" className="bg-white/70 dark:bg-gray-800/50 border-[2px] border-[#e2edf2] dark:border-gray-700 text-[#2A3B4C] dark:text-gray-200 px-8 py-3.5 rounded-[30px] font-bold flex items-center justify-center gap-2 hover:border-[#20A274] hover:text-[#15796b] dark:hover:border-[#20A274] dark:hover:text-[#4bb2df] transition-all duration-300 text-[15px] shadow-sm hover:shadow-[0_4px_15px_rgba(32,162,116,0.1)] backdrop-blur-sm group">
-              Contact Me 
+              Contact Me
               <span className="group-hover:-translate-y-1 transition-transform inline-block opacity-70 group-hover:opacity-100"><Mail size={18} strokeWidth={2.5} /></span>
             </Link>
           </div>

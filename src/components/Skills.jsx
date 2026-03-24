@@ -57,7 +57,7 @@ const Skills = () => {
     <section id="skills" className="pt-24 pb-16 px-6 relative w-full flex flex-col items-center z-10">
       <div className="text-center mb-12 relative w-full flex flex-col items-center">
         <h2 className="text-[44px] md:text-[54px] font-[900] text-[#2A3B4C] dark:text-gray-100 tracking-[-0.02em]">
-          Technical <span className="gradient-text-teal">Expertise</span>
+          Technical <span className="gradient-text-teal">Arsenal</span>
         </h2>
         <p className="mt-4 text-[#556987] dark:text-gray-300 text-[17px] font-[500] leading-[1.6] text-center max-w-[500px]">
           Showcasing my skills, tools, and technologies that drive impactful development.
